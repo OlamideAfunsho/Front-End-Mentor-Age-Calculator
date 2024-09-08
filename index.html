@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,300;1,400;1,800&display=swap"
+          rel="stylesheet" />
+     <link rel="stylesheet" type="text/css" href="style.css" />
+     <title>Age Calculator</title>
+</head>
+
+<body>
+     <div class="age-calculator">
+          <div class="date-inputs">
+               <div class="input-container">
+                         <label for="day">DAY</label>
+                         <input type="text" id="day" placeholder="DD" />
+                         <small class="error-message" id="day-error"></small>
+               </div>
+               <div class="input-container">
+                    <label for="month">MONTH</label>
+                    <input type="text" id="month" placeholder="MM" />
+                    <small class="error-message" id="month-error"></small>
+               </div>
+               <div class="input-container">
+                    <label for="year">YEAR</label>
+                    <input type="text" id="year" placeholder="YYYY" />
+                    <small class="error-message" id="year-error"></small>
+               </div>
+               <!-- The button to trigger the calculation -->
+               <div class="calculate-button-container">
+                    <button id="calculate-button">
+                         <img src="./icon-arrow.svg" alt="Calculate" />
+                    </button>    
+               </div>
+          </div>
+          <div class="age-result">
+               <span id="years">--</span>years<br />
+               <span id="months">--</span>months<br />
+               <span id="days">--</span>days<br />
+          </div>
+     </div>
+     <script src="script.js"></script>
+</body>
+
+</html>
