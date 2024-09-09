@@ -160,11 +160,12 @@ body{
 
  @media (max-width: 450px) {
      .age-calculator {
-          width:400px;
+          width:350px;
           height:65%;
           margin:auto;
-          
-
+     }
+     .calculate-button-container{
+          margin-bottom:3rem;
      }
  }
 
