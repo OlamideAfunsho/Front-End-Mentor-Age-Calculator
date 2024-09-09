@@ -171,7 +171,7 @@ body{
       .age-result{
            font-size:40px;
            top:50%;
-           transform: (-0%, -75%);
+           transform: (-70%, -0%);
       }
  }
 
@@ -189,6 +189,6 @@ body{
            font-size:40px;
            position:absolute;
            top:50%;
-           transform: (-0%, -75%);
+           transform: (-70%, -0%);
       }
  }
