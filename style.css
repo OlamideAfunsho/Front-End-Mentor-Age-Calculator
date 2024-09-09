@@ -170,6 +170,7 @@ body{
      }
       .age-result{
            font-size:40px;
+           position:absolute;
            top:50%;
            transform: (-0%, 70%);
       }
