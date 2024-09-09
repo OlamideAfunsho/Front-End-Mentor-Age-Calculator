@@ -122,72 +122,72 @@ body{
 
 
 /* ----------------MEDIA QUERIES---------------- */
- @media (max-width: 600px) {
-     .age-calculator {
-          width:80%;
-          height:70%;
-          margin:auto;
-          padding-left:3.5rem;
+@media (max-width: 600px) {
+    .age-calculator {
+        width: 80%;
+        height: auto; /* Adjusted from 70% to auto to accommodate padding */
+        margin: auto;
+        padding: 2.5rem 3.5rem; /* Adjusted: Added padding to top and bottom */
+    }
 
-     }
- 
-     .input-container input {
-          width:75px;
-          height: 40px;
-         padding: 8px;
-         font-size: 20px;
-         margin-bottom: 5px;
-     }
- 
-     .age-result{
-          font-size:50px;
-          margin-top: 5rem;
-     }
+    .input-container input {
+        width: 75px;
+        height: 40px;
+        padding: 8px;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
 
-     .calculate-button-container{
-         position:absolute;
-         right:40%;
-         top:10%;
-         margin-bottom:2rem;
+    .age-result {
+        font-size: 50px;
+        margin-top: 5rem; /* Adjusted from 4rem to 5rem */
+    }
 
-     }
-     .error-message {
-          font-size: 8px;
-          display: block;
-      }
+    .calculate-button-container {
+        position: absolute;
+        right: 40%;
+        top: 10%;
+        margin-bottom: 2rem;
+    }
 
- }
+    .error-message {
+        font-size: 8px;
+        display: block;
+    }
+}
 
- @media (max-width: 450px) {
-     .age-calculator {
-          width:400px;
-          height:70%;
-          margin:auto;
-          padding-left:25px;
-     }
+@media (max-width: 450px) {
+    .age-calculator {
+        width: 400px;
+        height: auto; /* Adjusted from 70% to auto to accommodate padding */
+        margin: auto;
+        padding: 3rem 2rem; /* Adjusted: Added padding to top and bottom */
+    }
 
-     .calculate-button-container{
-          margin-bottom:3rem;
-     }
-      .age-result{
-           font-size:40px;
-           margin-top:6rem;
-      }
- }
+    .calculate-button-container {
+        margin-bottom: 3rem;
+    }
 
- @media (max-width: 400px) {
-     .age-calculator {
-          width:350px;
-          height:70%;
-          margin:auto;
-          padding-left:25px;
-     }
-     
-      .calculate-button-container{
-          margin-bottom:3rem;
-      }
-      .age-result{
-           font-size:40px;
-           margin-top:6rem;
-      }
- }
+    .age-result {
+        font-size: 40px;
+        margin-top: 6rem; /* Adjusted from 4rem to 6rem */
+    }
+}
+
+@media (max-width: 400px) {
+    .age-calculator {
+        width: 350px;
+        height: auto; /* Adjusted from 70% to auto to accommodate padding */
+        margin: auto;
+        padding: 3rem 2rem; /* Adjusted: Added padding to top and bottom */
+    }
+
+    .calculate-button-container {
+        margin-bottom: 3rem;
+    }
+
+    .age-result {
+        font-size: 40px;
+        margin-top: 6rem; /* Adjusted from 4rem to 6rem */
+    }
+}
