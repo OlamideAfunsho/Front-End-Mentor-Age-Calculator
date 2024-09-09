@@ -122,12 +122,13 @@ body{
 
 
 /* ----------------MEDIA QUERIES---------------- */
+/* ----------------MEDIA QUERIES---------------- */
 @media (max-width: 600px) {
     .age-calculator {
         width: 80%;
-        height: auto; /* Adjusted from 70% to auto to accommodate padding */
+        height: auto; /* Adjusted from 70% to auto */
         margin: auto;
-        padding: 2.5rem 3.5rem; /* Adjusted: Added padding to top and bottom */
+        padding: 2.5rem 2rem; /* Adjusted: Added padding to top, bottom, left, and right */
     }
 
     .input-container input {
@@ -146,7 +147,7 @@ body{
     .calculate-button-container {
         position: absolute;
         right: 40%;
-        top: 20%;
+        top: 12%; /* Adjusted from 10% to 12% to shift down the purple button */
         margin-bottom: 2rem;
     }
 
@@ -159,13 +160,14 @@ body{
 @media (max-width: 450px) {
     .age-calculator {
         width: 400px;
-        height: auto; /* Adjusted from 70% to auto to accommodate padding */
+        height: auto; /* Adjusted from 70% to auto */
         margin: auto;
-        padding: 3rem 2rem; /* Adjusted: Added padding to top and bottom */
+        padding: 3rem 1.5rem; /* Adjusted: Added padding to top, bottom, left, and right */
     }
 
     .calculate-button-container {
         margin-bottom: 3rem;
+        top: 15%; /* Added: Adjusted to shift down the purple button */
     }
 
     .age-result {
@@ -177,13 +179,14 @@ body{
 @media (max-width: 400px) {
     .age-calculator {
         width: 350px;
-        height: auto; /* Adjusted from 70% to auto to accommodate padding */
+        height: auto; /* Adjusted from 70% to auto */
         margin: auto;
-        padding: 3rem 2rem; /* Adjusted: Added padding to top and bottom */
+        padding: 3rem 1.5rem; /* Adjusted: Added padding to top, bottom, left, and right */
     }
 
     .calculate-button-container {
         margin-bottom: 3rem;
+        top: 15%; /* Added: Adjusted to shift down the purple button */
     }
 
     .age-result {
