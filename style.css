@@ -141,7 +141,7 @@ body{
  
      .age-result{
           font-size:50px;
-          margin-top: 4rem;
+          margin-top: 5rem;
      }
 
      .calculate-button-container{
@@ -171,7 +171,7 @@ body{
      }
       .age-result{
            font-size:40px;
-           
+           margin-top:6rem;
       }
  }
 
@@ -188,6 +188,6 @@ body{
       }
       .age-result{
            font-size:40px;
-           
+           margin-top:6rem;
       }
  }
