@@ -165,6 +165,9 @@ body{
           margin:auto;
           padding-left:25px;
      }
+     .error-message{
+          margin-bottom:50px;
+     }
      .calculate-button-container{
           margin-bottom:3rem;
      }
@@ -181,6 +184,10 @@ body{
           margin:auto;
           padding-left:25px;
      }
+      .error-message{
+          margin-bottom:50px;
+      }
+     
       .calculate-button-container{
           margin-bottom:3rem;
       }
