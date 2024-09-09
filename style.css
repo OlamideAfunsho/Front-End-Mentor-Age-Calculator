@@ -163,7 +163,7 @@ body{
           width:400px;
           height:70%;
           margin:auto;
-          padding-left:15px;
+          padding-left:20px;
      }
      .calculate-button-container{
           margin-bottom:30px;
@@ -178,12 +178,12 @@ body{
           width:350px;
           height:70%;
           margin:auto;
-          padding-left:15px;
+          padding-left:20px;
      }
       .calculate-button-container{
           margin-bottom:30px;
       }
       .age-result{
-           font-size:30px
+           font-size:40px
       }
  }
