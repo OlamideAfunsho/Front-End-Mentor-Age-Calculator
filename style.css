@@ -160,7 +160,7 @@ body{
 
  @media (max-width: 450px) {
      .age-calculator {
-          width:90%;
+          width:400px;
           height:70%;
           margin:auto;
      }
@@ -169,9 +169,9 @@ body{
      }
  }
 
- @media (max-width: 350px) {
+ @media (max-width: 400px) {
      .age-calculator {
-          width:90%;
+          width:350px;
           height:70%;
           margin:auto;
      }
