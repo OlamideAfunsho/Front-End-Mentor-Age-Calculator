@@ -174,8 +174,9 @@ body{
           width:350px;
           height:70%;
           margin:auto;
+          padding-left:-1.5rem;
      }
       .calculate-button-container{
-          margin-bottom:3rem;
+          margin-bottom:30px;
       }
  }
